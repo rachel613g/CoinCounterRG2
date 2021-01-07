@@ -7,4 +7,5 @@
     <string name="nickel">Nickel</string>
     <string name="dime">Dime</string>
     <string name="quarter">Quarter</string>
+    <string name="statusBarInitialString">RG</string>
 </resources>
