@@ -7,5 +7,8 @@
     <string name="nickel">Nickel</string>
     <string name="dime">Dime</string>
     <string name="quarter">Quarter</string>
-    <string name="statusBarInitialString">RG</string>
+    <string name="status_bar_initial_string">RG</string>
+    <string name="about_title">About</string>
+    <string name="about_text">Made by RG for the MCON 521 Final Exam.</string>
+    <string name="clear_all_title">CLEAR ALL</string>
 </resources>

@@ -17,8 +17,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/statusBarTV"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/primaryTextColor"
-        android:text="@string/statusBarInitialString"
+        android:text="@string/status_bar_initial_string"
         android:layout_margin="@dimen/standard_margin" />
 </com.google.android.material.card.MaterialCardView>
