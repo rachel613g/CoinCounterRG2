@@ -2,5 +2,9 @@
     <string name="app_name">CoinCounterRG2</string>
     <string name="action_settings">Settings</string>
     <string name="banner_prompt">Please enter in the coin count.</string>
+    <string name="zero">0</string>
     <string name="penny">Penny</string>
+    <string name="nickel">Nickel</string>
+    <string name="dime">Dime</string>
+    <string name="quarter">Quarter</string>
 </resources>

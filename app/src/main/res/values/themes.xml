@@ -28,4 +28,20 @@
     <style name="Theme.CoinCounterRG2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.CoinCounterRG2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MaterialCardWithBorder" parent="Widget.MaterialComponents.CardView">
+        <item name="strokeWidth">@dimen/slim_margin</item>
+        <item name="strokeColor">@color/primaryColor</item>
+        <item name="cardBackgroundColor">@color/defaultBackgroundColor</item>
+    </style>
+
+    <style name="edit_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/slim_margin</item>
+        <item name="android:ems">3</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
 </resources>
