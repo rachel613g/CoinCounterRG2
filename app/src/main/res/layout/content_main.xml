@@ -12,6 +12,7 @@
         style="@style/MaterialCardWithBorder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_activity_margin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,7 +21,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/banner_prompt" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/primaryTextColor"
+            android:text="@string/banner_prompt"
+            android:layout_margin="@dimen/standard_margin"
+            />
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Penny Card -->
